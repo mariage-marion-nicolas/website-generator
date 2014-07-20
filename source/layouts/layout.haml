@@ -1,0 +1,23 @@
+!!! 5
+%html{:lang => 'fr'}
+  %head
+    %title Marion et Nicolas se marient
+    %meta(charset="utf-8")
+    %meta(content="initial-scale=1.0, width=device-width" name="viewport")
+    %meta(content="on" http-equiv="cleartype")
+    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+
+    /[if IE]
+      %script(src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js")
+
+    %link(href="stylesheets/style.css" rel="stylesheet")
+
+  %body
+    #allpage
+      #container
+        #container2
+          #container3
+            = render_partial 'header'
+            #container_content
+              = yield
+

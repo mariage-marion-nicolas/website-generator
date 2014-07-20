@@ -1,0 +1,419 @@
+@import "includes/reset";
+
+@import "includes/fonts";
+
+html {
+  width: 100%;
+  height: 100%;
+  color: #4c4b47;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 85%;
+  font-family: 'cochin_ltregular';
+  background: #fff;
+}
+#directions .adp-text,
+#directions .adp,
+#directions .adp-substep {
+  font-family: 'cochin_ltregular';
+}
+h1 {
+  font-size: 4.4em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 2.8em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+a {
+  color: #97b3ba;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+#allpage {
+  width: 100%;
+}
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+#container2,
+#container3 {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  padding-top: 20px;
+  background: url("../images/bg_menu_top.jpg") repeat-x top;
+  margin-top: 20px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 120%;
+  padding-bottom: 20px;
+  background: url("../images/bg_menu_bottom.jpg") repeat-x bottom;
+}
+nav ul li {
+  font-size: 0.9em;
+  line-height: 130%;
+  padding-left: 10px;
+  padding-right: 4px;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #4c4b47;
+}
+nav ul li.first {
+  padding: 0;
+  background: none;
+}
+nav ul li a:hover,
+nav ul li a.menu_active {
+  text-decoration: underline;
+  color: #9e73a5;
+}
+.random_img {
+  display: none;
+}
+#container_content {
+  margin-bottom: 40px;
+  width: 94%;
+  padding: 0 3% 0 3%;
+  float: left;
+  line-height: 1.8em;
+}
+#content {
+  width: 100%;
+  font-size: 1.4em;
+}
+h2.event_title {
+  color: #97b3ba;
+  font-weight: normal;
+  font-size: 1.8em;
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+h2.page_title span {
+  display: none;
+}
+div.title,
+h2.page_title {
+  position: relative;
+  font-family: 'ecuyerdaxregular';
+  color: #97b3ba;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.3em;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  background: url("../images/bg_title.jpg") repeat-x bottom;
+}
+div.title {
+  margin: 60px 0 15px 0;
+}
+h3.small_title {
+  font-size: 1.5em;
+  display: block;
+  font-weight: normal;
+  width: 100%;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #fff;
+}
+h3.small_title a {
+  text-decoration: none;
+}
+#title {
+  clear: both;
+  height: 280px;
+  width: auto;
+  margin-top: 30px;
+  background: url("../images/bg_header.jpg") no-repeat center 135px;
+}
+#title h1.website_title {
+  text-transform: lowercase;
+  margin: 0;
+  float: left;
+  clear: both;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 1.8em;
+  line-height: 125%;
+}
+#title h1.website_title span.lettreEt {
+  font-family: 'sanford-webfont';
+  font-size: 2.8em;
+  text-align: center;
+  color: #675c55;
+  display: block;
+  display: inline-block;
+}
+#title h1.website_title span.bride_name {
+  font-size: 2.8em;
+  font-family: 'ekaterina';
+  text-align: center;
+  width: 100%;
+  color: #97b3ba;
+  display: inline-block;
+}
+#title h1.website_title span.groom_name {
+  font-size: 2.7em;
+  font-family: 'ecuyerdaxregular';
+  text-align: center;
+  color: #4c4b47;
+  display: inline-block;
+}
+#title h6.website_countdown {
+  font-family: 'ecuyerdaxregular';
+  background: url("../images/bg_header.jpg") no-repeat center top;
+  color: #97b3ba;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  float: left;
+  font-weight: normal;
+  line-height: 100%;
+  padding-top: 15px;
+}
+#title h6.website_date {
+  font-weight: normal;
+  font-size: 1.6em;
+  text-align: center;
+  width: 100%;
+  float: left;
+  text-transform: uppercase;
+  line-height: 140%;
+  margin-top: 25px;
+}
+#title h6.website_date span.date_part1 {
+  display: none;
+}
+#title h6.website_date span.date_part2 {
+  color: #97b3ba;
+  font-family: 'labtop';
+  width: 49.5%;
+  float: left;
+  text-align: right;
+  font-size: 2em;
+}
+#title h6.website_date span.date_part3 {
+  font-family: 'ecuyerdaxregular';
+  color: #386d75;
+  width: 49.5%;
+  float: right;
+  text-align: left;
+  font-size: 2.8em;
+  margin-top: 5px;
+}
+#title h6.website_date span.date_part4 {
+  font-family: 'labtop';
+  color: #918f90;
+  width: 49.5%;
+  float: left;
+  text-align: right;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+#title h6.website_date span.date_part5 {
+  font-family: 'ekaterina';
+  color: #675c55;
+  width: 49.5%;
+  float: right;
+  text-align: left;
+  font-size: 2em;
+  margin-top: 7px;
+}
+#title h1.website_title span.lettre0,
+#title h1.website_title span.lettre12,
+#title h1.website_title span.lettre17,
+#title h1.website_title span.lettre25 {
+  color: #386d75;
+}
+#title h1.website_title span.lettre1,
+#title h1.website_title span.lettre7,
+#title h1.website_title span.lettre11,
+#title h1.website_title span.lettre18,
+#title h1.website_title span.lettre26 {
+  color: #c9f118;
+}
+#title h1.website_title span.lettre2,
+#title h1.website_title span.lettre6,
+#title h1.website_title span.lettre13,
+#title h1.website_title span.lettre19,
+#title h1.website_title span.lettre24 {
+  color: #49b2b9;
+}
+#title h1.website_title span.lettre3,
+#title h1.website_title span.lettre8,
+#title h1.website_title span.lettre15,
+#title h1.website_title span.lettre20,
+#title h1.website_title span.lettre22 {
+  color: #918f90;
+}
+#title h1.website_title span.lettre4,
+#title h1.website_title span.lettre9,
+#title h1.website_title span.lettre14,
+#title h1.website_title span.lettre21,
+#title h1.website_title span.lettre23 {
+  color: #b37bad;
+}
+#title h1.website_title span.lettre5,
+#title h1.website_title span.lettre10,
+#title h1.website_title span.lettre16,
+#title h1.website_title span.lettre22,
+#title h1.website_title span.lettre27 {
+  display: inline-block;
+  color: #675c55;
+}
+
+@media (max-width: 900px) {
+  #container {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #container2 {
+    width: 100%;
+  }
+  a.button_two {
+    width: 85%;
+  }
+  a.menu_btn {
+    width: 40%;
+  }
+  a.see_profil_btn {
+    width: auto;
+  }
+  #direction_map #map_bloc {
+    position: relative;
+  }
+  .last_items {
+    width: 40%;
+    margin-right: 7%;
+  }
+  .last_visits {
+    width: 60%;
+    margin-right: 0;
+  }
+  .push_accueil1 p,
+  .push_accueil2 p,
+  .push_accueil3 p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 511px) {
+  #title h1.website_title span.lettreEt {
+    font-size: 1.5em;
+  }
+  #title h1.website_title span.bride_name {
+    font-size: 1.8em;
+  }
+  #title h1.website_title span.groom_name {
+    font-size: 1.2em;
+  }
+  #title h6.website_date span.date_part2,
+  #title h6.website_date span.date_part3,
+  #title h6.website_date span.date_part4,
+  #title h6.website_date span.date_part5 {
+    font-size: 1.2em;
+  }
+  #container_content {
+    width: 90%;
+    padding: 0 5%;
+    margin: 0;
+  }
+  #random_home_photo {
+    display: none;
+  }
+  #add_comment_form input[type=text],
+  #add_comment_form input[type=password] {
+    width: 98%;
+  }
+  #add_comment_form input.captcha_input {
+    width: 70px;
+  }
+  #connexion a.connexion_backend_link,
+  #connexion a.connexion_login_link {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin: 0;
+  }
+  .trajet_detail {
+    width: 96%;
+    margin-right: 0;
+  }
+  #direction_list,
+  #direction_map {
+    width: 100%;
+  }
+  .last_items {
+    width: 85%;
+    margin-right: 0;
+    margin-left: 8%;
+    height: auto;
+  }
+  .last_visits {
+    display: none;
+  }
+  #profilForm label {
+    width: 100%;
+    float: left;
+  }
+  #profilForm textarea,
+  #profilForm input[type=text],
+  #profilForm input[type=password] {
+    width: 98%;
+    float: left;
+    margin: 0;
+  }
+  .profil_photo {
+    width: 95%;
+  }
+  #info_user {
+    width: 100%;
+    margin: 10px 0;
+  }
+  a.gallery_bloc {
+    width: 42%;
+  }
+  .push_accueil1,
+  .push_accueil2,
+  .push_accueil3 {
+    margin: 20px auto 0 auto;
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .presence_title {
+    width: 49%;
+  }
+  .presence_choice {
+    width: 50%;
+  }
+}

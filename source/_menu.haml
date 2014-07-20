@@ -1,0 +1,5 @@
+%nav
+  %ul
+    - data.menu_items.each_with_index do |(page, title), i|
+      %li{:class => (i == 0 ? 'first' : (i == data.menu_items.size - 1) ? 'last' : nil)}
+        %a{:class => (locals[:selected] == page ? 'menu_active' : nil), :href => "#{page}.html"}= title
