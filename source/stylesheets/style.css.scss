@@ -126,7 +126,7 @@ h2.page_title {
   font-size: 2.3em;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 1em;
   background: url("../images/bg_title.jpg") repeat-x bottom;
 }
 div.title {
@@ -286,6 +286,32 @@ h3.small_title a {
 #title h1.website_title span.lettre27 {
   display: inline-block;
   color: #675c55;
+}
+
+#content2 p {
+  text-align: justify;
+}
+
+table.prices {
+  margin: 10px auto;
+  text-align: center;
+  td, th {
+    padding: 5px;
+  }
+}
+
+center.image {
+  padding: 20px;
+
+  img {
+    border: 3px solid grey;
+    border-radius: 3px;
+  }
+  .legend {
+    display: block;
+    font-size: 90%;
+    color: grey;
+  }
 }
 
 @media (max-width: 900px) {
