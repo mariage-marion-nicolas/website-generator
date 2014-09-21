@@ -28,8 +28,10 @@ h2 {
   font-weight: bold;
 }
 h3 {
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-weight: bold;
+  color: #7e7e7e;
+  margin-bottom: 5px;
 }
 h4 {
   font-size: 1.2em;
@@ -290,6 +292,15 @@ h3.small_title a {
 
 #content2 p {
   text-align: justify;
+}
+
+table.planning tr.day th {
+  padding-right: 1em;
+}
+
+table.planning tr.day th,
+table.planning tr.day td {
+  padding-top: 1em;
 }
 
 table.prices {
